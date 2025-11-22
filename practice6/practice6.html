@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: rgb(0, 0, 0); color: white; display: flex; justify-content: center; align-items: center;">
+    <div id="parent" style="background-color: rgb(68, 74, 72); padding: 20px;">
+        <form id="astroForm">
+        <h1>Astrology Predictions</h1>
+        <label for="name">First Name:</label> <br>
+        <input type="text" id="name" name="name"style="width: 300px;"><br><br>
+        <label for="surname">Surname:</label><br>
+        <input type="text" id="surname" name="surname"style="width: 300px;">
+        <br><br>
+        <label for="day">Day:</label><br>
+        <input type="number" id="day" name="day" min="0" max="31" style="width: 300px;"><br><br>
+        <label for="month">Month:</label><br>
+        <input type="number" id="month" name="month" min="0" max="12" style="width: 300px;"><br><br>
+        <label for="year">Year:</label><br>
+        <input type="number" id="year" name="year" min="1980" max="2025" style="width: 300px;"><br><br>
+        <input type="submit" value="Get Predictions" style="background-color: aquamarine; width: 310px;font-size: 15px;">
+        <!-- <button id="submit" style="width: 300px; background-color: aqua; font-size: large;">Get Predictions</button> -->
+         </form>
+         <div class="result" id="result" style="max-width: 300px; text-align: center; word-wrap: break-word;"></div>
+
+
+
+
+        
+
+        
+    </div>
+
+
+    
+</body>
+<script src="practice6.js"></script>
+</html>
