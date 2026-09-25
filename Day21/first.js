@@ -1,12 +1,21 @@
-function attach(content){
-const element = document.createElement('li');
-element.innerHTML="TS";
-element.innerHTML=content;
+// function attach(content){
+// const element = document.createElement('li');
+// element.innerHTML="TS";
+// element.innerHTML=content;
+
+// const parent=document.getElementById("root");
+// // parent.appendChild(element);
+// parent.append(element);
+
+// };
+// attach("JSS");
+// attach("PHP");
 
 const parent=document.getElementById("root");
-// parent.appendChild(element);
-parent.append(element);
+const element= document.createElement("li");
 
-};
-attach("JSS");
-attach("PHP");
+element.innerHTML="TSS";
+
+parent.prepend(element);
+
+
